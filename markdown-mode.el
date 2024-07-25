@@ -5620,8 +5620,8 @@ Assumes match data is available for `markdown-regex-italic'."
     (define-key map [remap mark-page] 'markdown-mark-page)
     (define-key map [remap narrow-to-page] 'markdown-narrow-to-page)
     ;; Link Movement
-    (define-key map (kbd "M-n") 'markdown-next-link)
-    (define-key map (kbd "M-p") 'markdown-previous-link)
+    ;(define-key map (kbd "M-n") 'markdown-next-link)
+    ;(define-key map (kbd "M-p") 'markdown-previous-link)
     ;; Toggling functionality
     (define-key map (kbd "C-c C-x C-e") 'markdown-toggle-math)
     (define-key map (kbd "C-c C-x C-f") 'markdown-toggle-fontify-code-blocks-natively)
